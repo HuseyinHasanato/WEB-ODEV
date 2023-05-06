@@ -50,10 +50,8 @@
     </div>
 
     <div class="container col-6" id="form_container">
-		<form action="login.php" method="post">
-			<?php if (isset($_GET['error'])) { ?>
-				<p class="error"><?php echo $_GET['error']; ?></p>
-			<?php } ?>
+		<form action="" method="post">
+			
 			<div class="mb-3">
 			<label for="exampleInputEmail1" class="form-label">Email adres</label>
 			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="uname">
