@@ -49,7 +49,7 @@ button {
 	border: none;
 }
 button:hover{
-	opacity: .7;
+	opacity: .8;
 }
 .error {
    background: #F2DEDE;
