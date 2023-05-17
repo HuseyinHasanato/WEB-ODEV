@@ -38,6 +38,9 @@
                     <li class="nav-item">
                         <a class="nav-link"  href="../sosyelmedya.html">Sosyal Medya</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link active"  href="./ileisim.html">IletiŞim</a>
+                    </li>
                 </ul>
                 <form class="d-flex">
                 <button class="btn btn-outline-success">
