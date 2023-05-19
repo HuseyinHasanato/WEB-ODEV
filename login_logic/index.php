@@ -53,21 +53,15 @@
     </div>
 
     <div class="container col-6" id="form_container">
-		<form action="login.php" method="post">
-			<?php if (isset($_GET['error'])) { ?>
-				<p class="error"><?php echo $_GET['error']; ?></p>
-			<?php } ?>
-			<div class="mb-3">
-			<label for="exampleInputEmail1" class="form-label">Email adres</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="uname">
-			<div id="emailHelp" class="form-text">E-postanızı asla başkalarıyla paylaşmayacağız.</div>
-			</div>
-			<div class="mb-3">
-			<label for="exampleInputPassword1" class="form-label">Parola</label>
-			<input type="password" class="form-control" id="exampleInputPassword1" required name="password">
-			</div>
-			<button type="submit" class="btn btn-primary" id="submited_form">Submit</button>
-		</form>
+      <form method="POST" action="login.php">
+        <label for="email">email :</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="password"> password:</label>
+        <input type="password" id="password" name="password" ><br><br>
+
+        <input type="submit" value="GIRIS">
+      </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     </body>
