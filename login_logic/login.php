@@ -6,11 +6,12 @@ $password = $_POST['password'];
 
 if ($email === 'g211210581@gmail.com' && $password === 'g211210581') {
    
-    header("Location: dogru.php");
-    exit; 
+    header("Location: ../index.html");
+    
 } else {
    
-	header("Location: error.php");
+	header("Location: index.php");
+    exit();
 
 }
 

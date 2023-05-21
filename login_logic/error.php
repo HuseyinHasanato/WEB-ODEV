@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,4 +10,4 @@
     <p>girdiginiz sifre yada email yanllistir</p>
     <a href="index.php">tekrar dene</a>
 </body>
-</html>
+</html>  -->
