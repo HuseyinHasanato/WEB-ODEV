@@ -4,7 +4,7 @@ const Pass = document.getElementById('exampleInputPassword1')
 const emailHelp = document.getElementById('emailHelp')
 
 submitBtn.addEventListener('click', () => {
-    if(Email.value === "") {
+    if(Email.value === "email gir") {
         console.log('true')
     } else {
         emailHelp.innerHTML === 'wrong email or password'
