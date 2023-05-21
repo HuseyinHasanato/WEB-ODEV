@@ -7,7 +7,8 @@
     <title>yanlis</title>
 </head>
 <body>
-    <p>girdiginiz sifre yada email yanllistir</p>
+    <p>girdiginiz email yada sifre yanllistir</p>
+    <p>lutfen tekrar deneyiniz</p>
     <a href="index.php">tekrar dene</a>
 </body>
 </html>  
