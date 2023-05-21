@@ -10,7 +10,7 @@ if ($email === 'g211210581@gmail.com' && $password === 'g211210581') {
     
 } else {
    
-	header("Location: index.php");
+	header("Location: error.php");
     exit();
 
 }
