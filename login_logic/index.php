@@ -39,7 +39,7 @@
                         <a class="nav-link"  href="../sosyelmedya.html">Sosyal Medya</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active"  href="./ileisim.html">Iletişim</a>
+                        <a class="nav-link active"  href="../ileisim.html">Iletişim</a>
                     </li>
                 </ul>
                 <form class="d-flex">
